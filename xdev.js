@@ -1,5 +1,5 @@
-// SC BY 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳
-// JANGAN DIPERJUAL BELIKAN !
+// SC BY KEMOL
+// GW CUMA KANG COPAS
 // SC PREMIUMNYA FULL MODULE!
 const
 	{
@@ -68,9 +68,9 @@ let bancht = JSON.parse(fs.readFileSync('./database/banchat.json'))
 banChats = true
 offline = false
 targetpc = '0'
-ownerNumber = ["6285878313791@s.whatsapp.net","6283803284713@s.whatsapp.net","6287705048235@s.whatsapp.net","6289512695391@s.whatsapp.net"]
-fake = 'ɪ ᴀᴍ ᴢᴀᴋʙᴏᴛᴢ'
-fake1 = '_*© 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳*_'
+ownerNumber = ["6285704828298@s.whatsapp.net","6283803284713@s.whatsapp.net","6287705048235@s.whatsapp.net","6289512695391@s.whatsapp.net"]
+fake = '𝑯𝑰𝑵𝑨𝑻𝑨 𝑪𝑯𝑨𝑵ꪶ𖣂ꫂ'
+fake1 = '_*© 𝑯𝑰𝑵𝑨𝑻𝑨 𝑪𝑯𝑨𝑵ꪶ𖣂ꫂ*_'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -188,19 +188,19 @@ module.exports = xdev = async (xdev, dev) => {
                   key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "60139571124@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `${fake}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
             //FAKE LIVE ACTION
             const floc2 = {
-                  key: {"fromMe": false,"participant": `0@s.whatsapp.net`, "remoteJid": "6285878313791-60139571124@g.us" },message: { "liveLocationMessage": { "title":`${fake}`,}}}
+                  key: {"fromMe": false,"participant": `0@s.whatsapp.net`, "remoteJid": "6285704828298-60139571124@g.us" },message: { "liveLocationMessage": { "title":`${fake}`,}}}
             //FAKEREPLY TROLI
             const ftroli = {
                   key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "60139571124@s.whatsapp.net" } : {})},message: {orderMessage: {itemCount : 2005,status: 1,surface : 1,message: `${fake}`,orderTitle: 'Bang',thumbnail: fs.readFileSync('./stik/thumb.jpeg'), sellerJid: '0@s.whatsapp.net'}}}
             //FAKEREPLY VIDEO
             const fvideo = {
-                  key: {fromMe: false,participant: `6285878313791@s.whatsapp.net`, ...(from ? { remoteJid: "6285878313791-60139571124@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '-99999', 'caption': `${fake}`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
+                  key: {fromMe: false,participant: `6285704828298@s.whatsapp.net`, ...(from ? { remoteJid: "6285704828298-60139571124@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '-99999', 'caption': `${fake}`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
             //FAKEREPLY GROUPINVITE
             const fgc = {
-                  key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6285878313791-60139571124@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `${fake}`, 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
+                  key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6285704828298-60139571124@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `${fake}`, 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
             //FAKEREPLY GIF
             const fgif = {
-                  key: {fromMe: false,participant: `6285878313791@s.whatsapp.net`, ...(from ? { remoteJid: "6285878313791-60139571124@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `${fake}`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}} 
+                  key: {fromMe: false,participant: `6285704828298@s.whatsapp.net`, ...(from ? { remoteJid: "6285704828298-60139571124@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `${fake}`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}} 
             
         const reply = (text) => {
                 xdev.sendMessage(from, text, MessageType.text, {contextInfo:{forwardingScore: 508, isForwarded: true}, quoted: dev, sendEphemeral: true ,thumbnail: fs.readFileSync(`./stik/thumb.jpeg`)})
@@ -433,7 +433,7 @@ reply(`Bot telah di Unban di group ini`)
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
         let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285878313791@s.whatsapp.net'
+        let id_vote = sender ? sender : '6285704828298@s.whatsapp.net'
         if(fil.includes(id_vote)) {
         return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
         } else {
@@ -455,7 +455,7 @@ reply(`Bot telah di Unban di group ini`)
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
         let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285878313791@s.whatsapp.net'
+        let id_vote = sender ? sender : '6285704828298@s.whatsapp.net'
         if(fil.includes(id_vote)) {
         return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
         } else {
@@ -482,7 +482,7 @@ if (atibot === true) return
 
 switch (command) {
     case 'menu':
-    case 'p':
+    case 'help':
     const timestampp = speed();
 	const latensii = speed() - timestampp
 	run = process.uptime() 
@@ -498,7 +498,7 @@ gbutsan = [
  gbuttonan = {
 imageMessage: mhan.message.imageMessage,
     contentText: help.menu(pushname, sender, prefix, banChats, ucapanWaktu, timeWib, timeWit, timeWita),
-    footerText: `Speed    : ${latensii.toFixed(4)} Second\nRuntime : ${teks}\n\n_*© 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳*_`,
+    footerText: `Speed    : ${latensii.toFixed(4)} Second\nRuntime : ${teks}\n\n_*© 𝑯𝑰𝑵𝑨𝑻𝑨 𝑪𝑯𝑨𝑵ꪶ𖣂ꫂ*_`,
     buttons: gbutsan,
     headerType: 4
 }
@@ -1331,7 +1331,7 @@ anu = await fetchJson(`https://api-anoncybfakeplayer.herokuapp.com/pastebin?text
             encmedia = JSON.parse(JSON.stringify(dev).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 		    media = await xdev.downloadAndSaveMediaMessage(encmedia)
             anu = args.join(' ').split('|')
-            satu = anu[0] !== '' ? anu[0] : `𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳`
+            satu = anu[0] !== '' ? anu[0] : `𝑯𝑰𝑵𝑨𝑻𝑨 𝑪𝑯𝑨𝑵ꪶ𖣂ꫂ`
             dua = typeof anu[1] !== 'undefined' ? anu[1] : ``
             require('./lib/fetcher.js').createExif(satu, dua)
 			require('./lib/fetcher.js').modStick(media, xdev, dev, from)
@@ -2296,7 +2296,7 @@ if (budy.startsWith('$')){
 if (!dev.key.fromMe && !isOwner) return
 qur = budy.slice(2)
 exec(qur, (err, stdout) => {
-if (err) return reply(`@𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳:~ ${err}`)
+if (err) return reply(`@𝑯𝑰𝑵𝑨𝑻𝑨 𝑪𝑯𝑨𝑵ꪶ𖣂ꫂ:~ ${err}`)
 if (stdout) {
 reply(stdout)
 }
