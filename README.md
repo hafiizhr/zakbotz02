@@ -1,6 +1,6 @@
 ## ```Deploy```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hafiizhr/chika-bot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hafiizhr/zakbotz02/)
 
 <div align="center">
 <img src="https://i.ibb.co/PMBzRKg/odc.jpg" alt="X Dev-Team" width="300" />
