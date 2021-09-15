@@ -8,9 +8,9 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/KiZakiXD"><img title="Remake" src="https://img.shields.io/badge/Author-KiZakiXD-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Hafiizhr"><img title="KEMOL" src="https://img.shields.io/badge/Author-KEMOL-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://wa.me/285878313791"> I Am Wibu >//< </a>
+  <a href="https://wa.me/6285704828298"> I Am Kemol >//< </a>
 </h4>
 </p>
 
